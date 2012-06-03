@@ -12,7 +12,7 @@ uses
   Windows,
   SysUtils;
 
-function Fib1(n: LongWord): LongWord;
+function Fib1(n: LongWord): LongWord; assembler; register;
 asm
   PUSH EBX
   TEST EAX, EAX
@@ -29,7 +29,7 @@ asm
   POP EBX
 end;
 
-function Fib2(n: LongWord): LongWord;
+function Fib2(n: LongWord): LongWord; assembler; register;
 asm
   PUSH EBX
   XOR ECX, ECX

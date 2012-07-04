@@ -58,5 +58,3 @@ if __name__ == "__main__":
     t2 = time.time() - t1
     print "after = ", x
     print "time = %.3f seconds" % t2
-    
-    

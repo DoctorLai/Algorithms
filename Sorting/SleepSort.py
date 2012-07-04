@@ -24,7 +24,7 @@ class SleepSortThread(threading.Thread):
     def run(self):
         global _lk, _ar
         # sleep corresponding interval
-        time.sleep(self.val)
+        time.sleep(self.val * 0.1)
         # lock before append
         _lk.acquire()
         _ar.append(self.val)
@@ -50,7 +50,7 @@ def SleepSort(x):
     return _ar
 
 if __name__ == "__main__":    
-    x = range(1, 10)
+    x = range(30, 40)
     random.shuffle(x)
     print "before = ", x
     t1 = time.time()

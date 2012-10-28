@@ -1,0 +1,5 @@
+D:\Dropbox\CodeProjects\BrainFuck\BrainFuck\bin\Debug\BrainFuck.exe
+D:\Dropbox\CodeProjects\BrainFuck\BrainFuck\bin\Debug\BrainFuck.pdb
+D:\Dropbox\CodeProjects\BrainFuck\BrainFuck\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\CodeProjects\BrainFuck\BrainFuck\obj\x86\Debug\BrainFuck.exe
+D:\Dropbox\CodeProjects\BrainFuck\BrainFuck\obj\x86\Debug\BrainFuck.pdb

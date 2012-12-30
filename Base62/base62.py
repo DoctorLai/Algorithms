@@ -20,6 +20,7 @@ def toBase(num, b = 62):
 def to10(num, b = 62):
     base = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     limit = len(num)
+    if limit == 0: return 0
     res = base.find(num[0])
     for i in xrange(1, limit):
         res = b * res + base.find(num[i])

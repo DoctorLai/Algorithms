@@ -2,7 +2,7 @@
 # convert.py
 # http://www.zhihua-lai.com/acm
 # http://rot47.net
-# convert from any base
+# Arbitrary Base Number Converter
 
 from math import floor
 
@@ -12,7 +12,7 @@ BASE10 = "0123456789";
 BASE16 = "0123456789abcdef";
 BASE32 = "0123456789abcdefghijklmnopqrstuvwxyz";
 BASE62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-BASE75="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_.,!=-*(){}[]";
+BASE75 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_.,!=-*(){}[]";
 
 def convert(src, srctable, desttable):
     srclen = len(srctable)
